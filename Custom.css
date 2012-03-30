@@ -1,0 +1,325 @@
+/**********************************************/
+/*
+/* Darker Skin by Darcy Clarke - 2011
+/*
+/* For how to install, or more themes, check out:
+/* http://darcyclarke.me/design/skin-your-chrome-inspector/
+/* 
+/* Color scheme is based on Joe Bergantine's Specials Board:
+/* http://joebergantine.com/werkstatt/seestyle
+/*
+/**********************************************/
+
+/**********************************************/
+/* Layout
+/**********************************************/
+#elements-content.source-code {
+  background: #242537 !important;
+  font-size: 12px !important;
+}
+
+#elements-content .highlight { 
+  color: #d4d4d4;
+}
+
+#elements-content .selection {
+
+}
+
+#elements-content .selection.selected {
+
+}
+
+#elements-content .parent {
+
+}
+
+/*.outline-disclosure ol:focus li.parent.expanded.selected::before*/
+#elements-content .outline-disclosure li.parent::before,
+#elements-content .outline-disclosure ol:focus li.parent.expanded.selected::before {
+  background: none !important;
+  content: '' !important;
+}
+
+#elements-content .parent.selected {
+  
+}
+
+#elements-content .parent.selected {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+#elements-content .parent.expanded {
+  
+}
+
+#elements-content .parent::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+  position: relative;
+  z-index: 999;
+}
+
+#elements-content .parent.expanded::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+#elements-sidebar .styles-section .properties li.parent::before,
+#elements-sidebar .section > .header::before,
+#elements-sidebar .properties-tree li.parent::before,
+#elements-sidebar .event-bars .event-bar .header::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+#elements-sidebar .styles-section .properties li.parent.expanded::before,
+#elements-sidebar .section.expanded > .header::before,
+#elements-sidebar .properties-tree li.parent.expanded::before,
+#elements-sidebar .event-bars .event-bar.expanded .header::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+/**********************************************/
+/* HTML
+/**********************************************/
+#elements-content .webkit-html-comment {
+  color: #8c8c8c !important;
+}
+
+#elements-content .webkit-html-doctype {
+
+}
+
+#elements-content .webkit-html-tag {
+  color: #ffc97c !important;
+}
+
+#elements-content .webkit-html-tag-name {
+    
+}
+
+#elements-content .webkit-html-attribute {
+
+}
+
+#elements-content .webkit-html-attribute-name {
+  color: #d97640 !important;
+}
+
+#elements-content .webkit-html-attribute-value {
+  color: #abca7e !important;
+}
+
+#elements-content .webkit-html-external-link {
+
+} 
+
+#elements-content .webkit-html-resource-link {
+
+}
+
+#elements-content .webkit-html-text-tag {
+
+}
+
+#elements-content .webkit-html-text-node {
+  color: #c2c3c3 !important;
+}
+
+#elements-content .webkit-html-css-node {
+  color: #c2c3c3 !important;
+}
+
+#elements-content .webkit-html-js-node {
+  color: #c2c3c3 !important;
+}
+
+
+/**********************************************/
+/* CSS
+/**********************************************/
+
+#elements-content .webkit-css-comment {
+
+}
+
+#elements-content .webkit-css-url {
+
+}
+
+#elements-content .webkit-css-color {
+
+}
+
+#elements-content .webkit-css-selector {
+
+} 
+
+#elements-content .webkit-css-property {
+
+}
+
+#elements-content .webkit-css-number {
+
+}
+
+#elements-content .webkit-css-keyword {
+
+}
+
+#elements-content .webkit-css-string {
+
+}
+
+#elements-content .webkit-css-important {
+
+}
+
+
+/**********************************************/
+/* JavaScript
+/**********************************************/
+#elements-content .webkit-javascript-comment {
+
+}
+
+#elements-content .webkit-javascript-keyword {
+  color: #d97640 !important;
+}
+
+#elements-content .webkit-javascript-ident {
+  color: #d97640 !important;
+}
+
+#elements-content .webkit-javascript-string {
+
+}
+
+#elements-content .webkit-javascript-number {
+
+}
+
+#elements-content .webkit-javascript-regexp {
+
+}
+
+/**********************************************/
+/* JavaScript Console
+/**********************************************/
+
+#console-view {
+    position: absolute;
+    background: #242537 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	color: #a7d473 !important;
+    overflow-y: auto;
+}
+
+.console-formatted-object, .console-formatted-node {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    color: #eec981 !important;
+   /* color: #e99b7c !important; */
+}
+
+.console-formatted-number {
+    color: #3f9bd1 !important;
+}
+
+.console-formatted-string, .console-formatted-regexp {
+    color: #d97640 !important;
+    white-space: pre;
+}
+
+.console-formatted-null, .console-formatted-undefined {
+    color: #9acbfb !important;
+}
+
+.console-group-messages .section .header::before {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 8px;
+    height: 8px;
+    content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+.console-group-messages .section.expanded .header::before {
+    content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+.properties-tree li.parent::before {
+    content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+    opacity: 0.75;
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin-top: 0;
+    padding-right: 3px;
+    -webkit-user-select: none;
+}
+
+.properties-tree li.parent.expanded::before {
+	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+    margin-top: 1px;
+}
+
+
+.section .properties .name, .event-properties .name {
+    color: #ac6f44 !important;
+}
+
+.section .properties .dimmed {
+    opacity: 1 !important;
+}
+
+.section .properties .value.error {
+    color: #FF3D3D !important;
+}
+
+.section .properties .number, .event-properties .number {
+    color: #3f9bd1 !important;
+}
+
+.section .properties .keyword, .event-properties .keyword {
+    color: #ac6f44 !important;
+}
+
+.section .properties .color, .event-properties .color {
+	 color: #d8f2ba !important;
+}
+
+.console-error-level .console-message-text, .console-error-level .section .header .title {
+    color: #FF3D3D !important;
+}
+
+.section .properties .value.error {
+    color: #FF3D3D !important;
+}
+
+
+/*
+
+.webkit-javascript-comment {
+    color: rgb(0, 116, 0);
+}
+
+.webkit-javascript-keyword {
+    color: rgb(170, 13, 145);
+}
+
+.webkit-javascript-number {
+    color: rgb(28, 0, 207);
+}
+
+.webkit-javascript-string, .webkit-javascript-regexp {
+    color: rgb(196, 26, 22);
+}
+
+.webkit-javascript-ident {
+    color: black;
+}
+*/
