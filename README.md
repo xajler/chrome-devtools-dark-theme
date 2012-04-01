@@ -1,6 +1,8 @@
 #Dark Theme for Chrome Developer tools [Elemnts and Console]
 
-* Based on the [Darcy Clarke blog post](http://darcyclarke.me/design/skin-your-chrome-inspector/) that include only skin/theme for Elemnts.
+* Based on the [Darcy Clarke blog post](http://darcyclarke.me/design/skin-your-chrome-inspector/) that include only skin/theme for Elements tab in Chrome Inspoector. Added the theme for the Console tab in Chrome Developer Tools.
+
+* For more information and screenshots, see my blog post [The Dark Theme for Chrome Dev Tools](http://wp.me/pAq3i-5c).  
 
 ##Place Custom.css in this folder:
 
