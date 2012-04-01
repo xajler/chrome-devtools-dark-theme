@@ -8,6 +8,14 @@
 /* Color scheme is based on Joe Bergantine's Specials Board:
 /* http://joebergantine.com/werkstatt/seestyle
 /*
+/* Dark Skin for Console by Kornelije Sajler
+/*
+/* For usage and code clone the git repo:
+/* git clone git@bitbucket.org:xajler/chrome-devtools-dark-theme.git
+/*
+/* TODO:
+/* Change Links in Console since they are grey!
+/*
 /**********************************************/
 
 /**********************************************/
@@ -93,32 +101,12 @@
   color: #ffc97c !important;
 }
 
-#elements-content .webkit-html-tag-name {
-    
-}
-
-#elements-content .webkit-html-attribute {
-
-}
-
 #elements-content .webkit-html-attribute-name {
   color: #d97640 !important;
 }
 
 #elements-content .webkit-html-attribute-value {
   color: #abca7e !important;
-}
-
-#elements-content .webkit-html-external-link {
-
-} 
-
-#elements-content .webkit-html-resource-link {
-
-}
-
-#elements-content .webkit-html-text-tag {
-
 }
 
 #elements-content .webkit-html-text-node {
@@ -131,55 +119,6 @@
 
 #elements-content .webkit-html-js-node {
   color: #c2c3c3 !important;
-}
-
-
-/**********************************************/
-/* CSS
-/**********************************************/
-
-#elements-content .webkit-css-comment {
-
-}
-
-#elements-content .webkit-css-url {
-
-}
-
-#elements-content .webkit-css-color {
-
-}
-
-#elements-content .webkit-css-selector {
-
-} 
-
-#elements-content .webkit-css-property {
-
-}
-
-#elements-content .webkit-css-number {
-
-}
-
-#elements-content .webkit-css-keyword {
-
-}
-
-#elements-content .webkit-css-string {
-
-}
-
-#elements-content .webkit-css-important {
-
-}
-
-
-/**********************************************/
-/* JavaScript
-/**********************************************/
-#elements-content .webkit-javascript-comment {
-
 }
 
 #elements-content .webkit-javascript-keyword {
@@ -203,7 +142,7 @@
 }
 
 /**********************************************/
-/* JavaScript Console
+/* Chrome JavaScript Console
 /**********************************************/
 
 #console-view {
@@ -213,7 +152,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-	color: #a7d473 !important;
+	  color: #a7d473 !important;
     overflow-y: auto;
 }
 
@@ -222,7 +161,6 @@
     display: inline-block;
     vertical-align: top;
     color: #eec981 !important;
-   /* color: #e99b7c !important; */
 }
 
 .console-formatted-number {
@@ -267,7 +205,6 @@
     margin-top: 1px;
 }
 
-
 .section .properties .name, .event-properties .name {
     color: #ac6f44 !important;
 }
@@ -299,27 +236,3 @@
 .section .properties .value.error {
     color: #FF3D3D !important;
 }
-
-
-/*
-
-.webkit-javascript-comment {
-    color: rgb(0, 116, 0);
-}
-
-.webkit-javascript-keyword {
-    color: rgb(170, 13, 145);
-}
-
-.webkit-javascript-number {
-    color: rgb(28, 0, 207);
-}
-
-.webkit-javascript-string, .webkit-javascript-regexp {
-    color: rgb(196, 26, 22);
-}
-
-.webkit-javascript-ident {
-    color: black;
-}
-*/
