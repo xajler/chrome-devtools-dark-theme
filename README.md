@@ -15,7 +15,7 @@
 
 ### Screenshots
 #### Dev Toools Elements
-![](github.com/xajler/chrome-devtools-dark-theme/raw/master/screenshots/elements.png)
+![](chrome-devtools-dark-theme/raw/master/screenshots/elements.png)
 #### Dev Tools Console
-![](github.com/xajler/chrome-devtools-dark-theme/raw/master/screenshots/console.png)
+![](chrome-devtools-dark-theme/raw/master/screenshots/console.png)
 
