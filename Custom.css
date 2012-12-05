@@ -31,7 +31,6 @@
 }
 
 #elements-content .selection {
-
 }
 
 #elements-content .selection.selected {
@@ -50,12 +49,13 @@
 }
 
 #elements-content .parent.selected {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
   
 }
 
-#elements-content .parent.selected {
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
+#elements-content .selected {
+    background: rgba(255, 255, 255, 0.2);
 }
 
 #elements-content .parent.expanded {
