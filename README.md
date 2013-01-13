@@ -24,6 +24,13 @@
 C:\Users\YourUsername\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
 ```
 
+* PC (Windows XP):
+
+```
+C:\Documents and Settings\YourUsername\Local Settings\Application Data\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
+```
+
+C:\Documents and Settings\Bill\Local Settings\Application Data\Google\Chrome\User Data\Default\User StyleSheets
 ### TODO:
 * Change links in Console from gray to some other color
 
